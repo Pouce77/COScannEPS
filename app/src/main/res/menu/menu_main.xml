@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="fr.kunze.coscanneps.MainActivity">
+    <item
+        android:id="@+id/telecharger"
+        android:title="Télécharger l'application élève"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/listCourses"
+        android:title="Liste des courses enregistrées"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/resultats"
+        android:title="Résultats élèves" />
+    <item
+        android:id="@+id/fichiercsv"
+        android:title="Liste des fichiers .CSV enregistrés" />
+</menu>

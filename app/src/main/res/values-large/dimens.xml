@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- activity_creer_balise -->
+
+    <dimen name="boutonaccueilwidth">500dp</dimen>
+    <dimen name="boutonaccueilheight">150dp</dimen>
+    <dimen name="tailletextboutonaccueil">20sp</dimen>
+
+    <!-- activity_liste_balise -->
+
+    <dimen name="tailletexttextview">36sp</dimen>
+    <dimen name="listwidth">560dp</dimen>
+    <dimen name="listheight">650dp</dimen>
+
+    <!-- activity_page_resultats -->
+
+    <dimen name="widthspinnerdate">500dp</dimen>
+    <dimen name="heightspinnerdate">60dp</dimen>
+    <dimen name="textviewTempstot">50sp</dimen>
+    <dimen name="listwidthresult">500dp</dimen>
+    <dimen name="listheightresult">300dp</dimen>
+
+    <!-- listbalise.xml-->
+
+    <dimen name="textsizelistbalise">18sp</dimen>
+    <dimen name="cotebalise">70dp</dimen>
+
+    <!-- activity_scanner_course-->
+
+    <dimen name="texyviewinstruction">500dp</dimen>
+
+    <dimen name="imageQRcode">400dp</dimen>
+    <dimen name="cardviewwidth">500dp</dimen>
+    <dimen name="videoviewmainewidth">480dp</dimen>
+    <dimen name="videoviewmainheight">400dp</dimen>
+
+</resources>

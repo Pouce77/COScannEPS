@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintscanner"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/coscann"
+    tools:context=".ScannerCourse">
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="@dimen/texyviewinstruction"
+        android:layout_height="wrap_content"
+        android:background="@drawable/borderbouton"
+        android:padding="10dp"
+        android:text="1 - Placer votre balise \n\n2 - Repérer votre balise sur la carte \n\n3 - Scanner son QRcode pour enregistrer ses coordonnées géographiques !"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/tailletextboutonaccueil"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titreCourse"
+        app:layout_constraintVertical_bias="0.034" />
+
+    <Button
+        android:id="@+id/boutonScanner"
+        android:layout_width="@dimen/boutonaccueilwidth"
+        android:layout_height="@dimen/boutonaccueilheight"
+        android:background="@drawable/borderboutonred"
+        android:padding="30dp"
+        android:text="SCANNER UNE BALISE"
+        android:textColor="@android:color/background_light"
+        android:textSize="@dimen/tailletexttextview"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview1"
+        app:layout_constraintVertical_bias="0.133" />
+
+    <Button
+        android:id="@+id/listeBalise"
+        android:layout_width="@dimen/boutonaccueilwidth"
+        android:layout_height="@dimen/boutonaccueilheight"
+        android:background="@drawable/borderboutonred"
+        android:padding="20dp"
+        android:text="Liste des balises enregistrées"
+        android:textColor="@android:color/background_light"
+        android:textSize="@dimen/tailletexttextview"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/boutonScanner"
+        app:layout_constraintVertical_bias="0.157" />
+
+    <TextView
+        android:id="@+id/titreCourse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/borderbouton"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="5dp"
+        android:text="TITRE"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="@dimen/textviewTempstot"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.044" />
+</androidx.constraintlayout.widget.ConstraintLayout>

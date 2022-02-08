@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">COscann Prof</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="title_activity_liste_balise" translatable="false">ListeBalise</string>
+    <string name="title_activity_liste_course" translatable="false">ListeCourse</string>
+    <string name="title_activity_resultats_eleves" translatable="false">ResultatsEleves</string>
+    <string name="title_activity_page_resultats" translatable="false">PageResultats</string>
+    <string name="title_activity_liste_fichiers_csv" translatable="false">ListeFichiersCSV</string>
+    <string name="title_activity_creer_balise" translatable="false">CreerBalise</string>
+    <string name="title_activity_propre_balise" translatable="false">PropreBalise</string>
+    <string name="title_activity_aide" translatable="false">Aide</string>
+
+    <!-- activitymain-->
+    <string name="boutonNouvelleCourse">Nouvelle course</string>
+    <string name="boutonEnvoyer" tools:ignore="StringEscaping">Envoyer une course sur l\'application élève ou partager la course avec une autre application professeur</string>
+    <string name="boutonRecupererDonnee" tools:ignore="StringEscaping">Récupérer les données d\'une application élève</string>
+    <string name="boutonCreer">Créer ses balises</string>
+    <string name="toolbartitlemain" tools:ignore="StringEscaping">CO Scann\'EPS (Application professeur)</string>
+    <string name="envoyerProf" tools:ignoreS="tringEscaping">Récupérer une course depuis une autre application professeur</string>
+
+</resources>

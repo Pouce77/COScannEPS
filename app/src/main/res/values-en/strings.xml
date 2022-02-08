@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="boutonNouvelleCourse">New race</string>
+    <string name="boutonEnvoyer" tools:ignore="StringEscaping">Send race to the student\'s app</string>
+    <string name="boutonRecupererDonnee" tools:ignore="StringEscaping">Retrieve data from a student\'s app</string>
+    <string name="boutonCreer">Create your own marker</string>
+    <string name="toolbartitlemain" tools:ignore="StringEscaping">CO Scann\'EPS (Teacher\'s app)</string>
+    <string name="envoyerProf" tools:ignore="tringEscaping">Obtain a race from another Teacher\'s app</string>
+</resources>
